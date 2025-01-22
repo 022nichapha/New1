@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Oder = void 0;
+exports.Order = void 0;
 const OrderStatus_1 = require("./OrderStatus");
-class Oder {
+class Order {
     constructor(number, ordered, shipped, ship_to, status, total) {
         this.lineItems = [];
         this.number = number;
@@ -57,4 +57,4 @@ class Oder {
         return `Order [number = ${this.number},Ordered=${this.ordered},Shipped=${this.shipped},Ship_to= ${this.ship_to},Status=${this.status},Total=${this, this.total}]`;
     }
 }
-exports.Oder = Oder;
+exports.Order = Order;

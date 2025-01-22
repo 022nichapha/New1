@@ -1,12 +1,16 @@
+import { Account } from './../Account';
 import { WebUser } from './WebUser';
-class Customer{
+export class Customer{
+    private Account!: Account; 
     private WebUser: WebUser;
     private id: string;
     private address: string;
     private phone: number;
     private email: string
-    constructor (WebUser:WebUser ,id:string, address:string, phone:number, email:string) {
-        this.WebUser = WebUser
+    account: typeof Account;
+    constructor (account:Account, WebUser:WebUser ,id:string, address:string, phone:number, email:string) {
+        this.account = Account;
+        this.WebUser = WebUser;
         this.id = id;
         this.address = address;
         this.phone = phone;

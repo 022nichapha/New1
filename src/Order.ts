@@ -1,7 +1,7 @@
 
 import { OrderStatus } from './OrderStatus';
 import { Lineitem } from './LineItem';
-export class Oder{
+export class Order{
     private number: string;
     private ordered: string;
     private shipped: string;
