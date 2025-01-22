@@ -1,4 +1,4 @@
-import { Lineitem } from './src/LineItem';
+import { Lineitem } from './LineItem';
 export class Shopping_Cart{
     private created: string
     private lineItems:Lineitem [] = []

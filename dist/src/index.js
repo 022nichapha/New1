@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Product_1 = require("./Product");
 const LineItem_1 = require("./LineItem");
-const Account_1 = require("../Account");
+const Account_1 = require("./Account");
 console.log("########Order##########");
 const product1 = new Product_1.Product("c", "cc", "ccc");
 console.log("########Lineitem##########");

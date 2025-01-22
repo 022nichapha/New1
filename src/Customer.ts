@@ -1,4 +1,4 @@
-import { Account } from './../Account';
+import { Account } from './Account';
 import { WebUser } from './WebUser';
 export class Customer{
     private Account!: Account; 

@@ -1,7 +1,7 @@
 import { Order } from "./Order";
 import { Product } from './Product';
 import { Lineitem } from './LineItem';
-import { Account } from "../Account";
+import { Account } from "./Account";
 import { Customer} from "./Customer";
 console.log("########Order##########");
 const product1 = new Product ("c","cc","ccc")
